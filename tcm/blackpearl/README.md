@@ -21,10 +21,12 @@ Result : ./nmap-initial
 - 53/tcp domain ISC BIND 9.11.5-P4-5.1+deb10u5 (Debian Linux)
 - 80/tcp http nginx 1.14.2
 
-#### operating System
+#### Operating System
 
 Running: Linux 4.X|5.X
+
 OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+
 OS details: Linux 4.15 - 5.6
 
 ### 3. Exploring directories (NO LUCK)
