@@ -7,6 +7,7 @@
 	sudo nmap -sn 192.168.100.1/24
 
 Result : ./discovery-scan
+
 Target IP : 192.168.100.190
 
 ### 2. Scanning Target IP
