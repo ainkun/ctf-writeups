@@ -1,0 +1,33 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://blackpearl.tcm/navigate/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              php
+[+] Timeout:                 10s
+===============================================================
+2022/02/04 17:51:46 Starting gobuster in directory enumeration mode
+===============================================================
+/web                  (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/web/]
+/img                  (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/img/]
+/index.php            (Status: 200) [Size: 232]                                          
+/themes               (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/themes/]
+/plugins              (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/plugins/]
+/login.php            (Status: 200) [Size: 8282]                                             
+/private              (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/private/]
+/lib                  (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/lib/]    
+/updates              (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/updates/]
+/css                  (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/css/]    
+/js                   (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/js/]     
+/cache                (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/cache/]  
+/navigate.php         (Status: 302) [Size: 0] [--> login.php]                                
+/web                  (Status: 301) [Size: 185] [--> http://blackpearl.tcm/navigate/web/]    
+                                                                                             
+===============================================================
+2022/02/04 17:57:28 Finished
+===============================================================
