@@ -24,7 +24,9 @@ Result : ./nmap-initial
 #### operating System
 
 Running: Linux 4.X|5.X
+
 OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+
 OS details: Linux 4.15 - 5.6
 
 ### 3. Exploring directories (NO LUCK)
@@ -32,6 +34,7 @@ OS details: Linux 4.15 - 5.6
 	sudo gobuster dir -u http:192.168.100.190/ -w /usr/share/wordlists/dirbuster/directory-list-1.0.txt
 
 Result: ./directory-burst1 
+
 Directories found: /secret
 
 - 'Secret' was a file which was downloaded and contains a note directory bursting won't help ;(
@@ -41,7 +44,10 @@ Directories found: /secret
 - As we see above port 53 is open, so most likely a DNS server is running.
 - We will now use a tool called 'nslookup' to gather information.
 
-Vislaize: ./nslookup.png 
+Vislaize:
+
+![nslookup](https://user-images.githubusercontent.com/60139669/152702255-8698f65d-2fb8-466f-9d1c-bf91b98d87ff.png)
+
 
 - The localhost query produced a domain name.
 - Browser can't reach the domain.
@@ -51,7 +57,10 @@ Vislaize: ./nslookup.png
 - this file is used to map domains and sub-domains to any IP adderess.
 - Add the entry with domain name enumerated above and IP address of the target.
 
-Visulaize: etc-hosts-edit.png
+Visulaize:
+
+![etc-hosts-edit](https://user-images.githubusercontent.com/60139669/152702200-437ba6d1-6e85-4366-9fba-f413e7adfc98.png)
+
 
 	192.168.100.190	blackpearl.tcm
 
