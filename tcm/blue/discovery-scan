@@ -1,0 +1,19 @@
+# Nmap 7.92 scan initiated Sat Feb  5 10:19:21 2022 as: nmap -sn -oN discovery-scan 192.168.100.1/24
+Nmap scan report for 192.168.100.1
+Host is up (0.010s latency).
+MAC Address: 10:C1:72:F7:3F:38 (Huawei Technologies)
+Nmap scan report for 192.168.100.206
+Host is up (0.18s latency).
+MAC Address: 50:3E:AA:20:11:4B (Tp-link Technologies)
+Nmap scan report for 192.168.100.207
+Host is up (0.18s latency).
+MAC Address: 8C:D9:D6:0D:94:34 (Xiaomi Communications)
+Nmap scan report for 192.168.100.208
+Host is up (0.15s latency).
+MAC Address: 50:3E:AA:20:11:4B (Tp-link Technologies)
+Nmap scan report for 192.168.100.223
+Host is up (0.11s latency).
+MAC Address: 88:B4:A6:6D:84:1A (Motorola Mobility, a Lenovo Company)
+Nmap scan report for 192.168.100.211
+Host is up.
+# Nmap done at Sat Feb  5 10:19:23 2022 -- 256 IP addresses (6 hosts up) scanned in 2.68 seconds
