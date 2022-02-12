@@ -1,0 +1,16 @@
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 4 OpenMP threads
+Proceeding with single, rules:Single
+Press 'q' or Ctrl-C to abort, almost any other key for status
+Warning: Only 5 candidates buffered for the current salt, minimum 8 needed for performance.
+Warning: Only 3 candidates buffered for the current salt, minimum 8 needed for performance.
+Warning: Only 2 candidates buffered for the current salt, minimum 8 needed for performance.
+Almost done: Processing the remaining buffered candidate passwords, if any.
+Warning: Only 7 candidates buffered for the current salt, minimum 8 needed for performance.
+Proceeding with wordlist:/usr/share/john/password.lst, rules:Wordlist
+Proceeding with incremental:ASCII
+java101          (save.zip)
+1g 0:00:00:05 DONE 3/3 (2022-02-11 01:15) 0.1689g/s 5665Kp/s 5665Kc/s 5665KC/s bbsex39..javst15
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

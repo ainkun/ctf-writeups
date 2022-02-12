@@ -1,0 +1,24 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.100.219:8080/dev/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Extensions:              php
+[+] Timeout:                 10s
+===============================================================
+2022/02/11 23:25:20 Starting gobuster in directory enumeration mode
+===============================================================
+/index.php            (Status: 200) [Size: 7657]
+/pages                (Status: 301) [Size: 329] [--> http://192.168.100.219:8080/dev/pages/]
+/files                (Status: 301) [Size: 329] [--> http://192.168.100.219:8080/dev/files/]
+/config               (Status: 301) [Size: 330] [--> http://192.168.100.219:8080/dev/config/]
+/forms                (Status: 301) [Size: 329] [--> http://192.168.100.219:8080/dev/forms/] 
+                                                                                             
+===============================================================
+2022/02/11 23:34:33 Finished
+===============================================================

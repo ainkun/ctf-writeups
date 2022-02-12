@@ -1,0 +1,23 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.100.219
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/02/11 20:49:02 Starting gobuster in directory enumeration mode
+===============================================================
+/public               (Status: 301) [Size: 319] [--> http://192.168.100.219/public/]
+/src                  (Status: 301) [Size: 316] [--> http://192.168.100.219/src/]   
+/extensions           (Status: 301) [Size: 323] [--> http://192.168.100.219/extensions/]
+/app                  (Status: 301) [Size: 316] [--> http://192.168.100.219/app/]       
+/vendor               (Status: 301) [Size: 319] [--> http://192.168.100.219/vendor/]    
+                                                                                        
+===============================================================
+2022/02/11 20:55:11 Finished
+===============================================================
