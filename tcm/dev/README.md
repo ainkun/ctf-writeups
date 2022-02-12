@@ -6,7 +6,7 @@
 
 	sudo nmap -sn 192.168.100.1/24
 
-Result : {discovery-scan}(https://github.com/hussain2802/ctf-writeups/blob/main/tcm/dev/discovery-scan)
+Result : [discovery-scan](https://github.com/hussain2802/ctf-writeups/blob/main/tcm/dev/discovery-scan)
 Target IP : 192.168.100.219
 
 ### 2. Scanning Target IP
