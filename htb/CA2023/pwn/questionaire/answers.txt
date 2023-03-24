@@ -1,0 +1,12 @@
+64-bit
+dynamic
+not stripped
+NX
+vuln()
+0x20
+gg()
+fgets()
+40
+0x401176
+HTB{th30ry_bef0r3_4cti0n}
+
