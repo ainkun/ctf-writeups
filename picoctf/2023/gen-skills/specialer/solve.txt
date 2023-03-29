@@ -1,0 +1,2 @@
+used `echo "$(<file.txt)"` for cat
+used `echo *` for ls

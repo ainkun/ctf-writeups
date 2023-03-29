@@ -1,0 +1,2 @@
+-8 or 18 Rotate
+caeser cipher

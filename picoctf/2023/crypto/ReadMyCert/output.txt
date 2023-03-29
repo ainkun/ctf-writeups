@@ -1,0 +1,48 @@
+Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: CN = picoCTF{read_mycert_60f83ace}, name = ctfPlayer
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ff:8a:32:07:28:14:00:2b:6f:bb:d6:c6:0f:c2:
+                    63:37:b8:f4:75:5f:71:39:3d:bb:be:62:67:0d:06:
+                    7f:6d:1e:65:f0:ae:08:91:29:8f:25:3d:e5:ee:db:
+                    9e:9d:19:b8:d7:c2:98:b8:8d:fd:d1:3a:62:3d:4f:
+                    ac:ad:18:f4:33:27:15:02:67:4b:70:7e:5c:d9:d9:
+                    d7:80:f7:87:e9:75:a7:b7:f3:c8:b8:70:58:ff:53:
+                    a1:9f:be:e8:69:5a:36:f4:5d:b6:d3:49:2e:53:0c:
+                    df:d6:c8:f6:da:4e:b2:3b:a7:5a:cb:5a:e9:fc:14:
+                    c8:9d:27:5d:ad:cd:01:c0:7b:03:3e:ac:a4:7c:41:
+                    b5:c6:8a:28:d0:a7:0e:07:e7:fc:02:b1:1f:36:20:
+                    1d:9a:2b:d4:1e:f6:d8:ba:f9:73:a7:e3:1e:7c:03:
+                    8c:4e:9b:d9:eb:25:c3:38:e9:af:1e:e9:f8:5a:7a:
+                    b3:e8:94:bd:03:bd:6f:7a:0f:a0:6c:d1:c5:a1:a0:
+                    60:7f:60:e4:6c:70:68:46:1c:dd:d5:08:a3:11:84:
+                    21:a4:93:21:97:ba:d8:58:66:a1:58:f0:6b:da:75:
+                    38:33:a8:dc:c8:82:7c:b2:70:b0:f7:3c:3f:59:cf:
+                    5e:b3:19:aa:ca:a9:bf:0b:89:fa:33:dd:27:dd:19:
+                    7b:2d
+                Exponent: 65537 (0x10001)
+        Attributes:
+            Requested Extensions:
+                X509v3 Extended Key Usage: 
+                    TLS Web Client Authentication
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        03:0e:30:25:78:93:6c:fe:59:3c:c7:5b:49:27:96:c6:4d:94:
+        d6:f4:76:7d:45:24:cf:f9:a2:db:f7:04:7a:60:76:f1:6f:7e:
+        a8:1f:7c:02:42:d2:96:d9:cb:1a:f8:1f:5a:9b:2b:c0:ed:39:
+        88:72:fe:10:58:50:32:d4:af:4f:b4:52:58:cf:fb:54:db:83:
+        46:2e:3e:cd:ce:61:a1:02:cd:16:a2:db:c0:f7:f4:f4:f6:41:
+        18:a1:8b:b5:5c:cd:f3:0b:a4:5b:6f:7d:1c:42:84:8b:53:3d:
+        e8:60:ce:cc:a3:75:16:03:a5:d6:e6:95:18:10:ba:8d:54:02:
+        9a:d7:30:db:6a:69:73:73:7e:67:8e:a8:dd:44:a2:bd:3e:26:
+        37:43:7b:fe:d1:5c:6d:c9:6e:85:a6:66:e8:b5:85:40:03:0d:
+        ac:7c:db:ae:4d:31:b2:b2:38:6e:40:0f:96:cc:a2:35:ec:49:
+        b3:a5:a9:fa:c9:0a:2e:d2:df:6d:e5:9f:f2:7f:70:73:4d:4f:
+        e9:7e:a5:93:a5:c8:2e:b1:04:00:fe:01:92:70:14:fb:ed:fb:
+        be:76:92:11:2a:b5:38:7f:75:16:a0:00:fb:1a:c3:89:63:70:
+        84:bf:f1:9b:e9:b8:ee:b3:55:09:02:12:cb:7c:97:b6:69:93:
+        95:2a:2c:ef
