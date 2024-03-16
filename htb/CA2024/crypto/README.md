@@ -1,12 +1,12 @@
-Dynastic(very easy)
+- Dynastic(very easy)
 
-Makeshift(very easy)
+- Makeshift(very easy)
 
-Primary Knowledge(very easy)
+- Primary Knowledge(very easy)
 
-Iced TEA(easy)
+- Iced TEA(easy)
 
-Blunt(easy)
+- Blunt(easy)
 
-Partial Tenacity(medium)
+- Partial Tenacity(medium)
 
